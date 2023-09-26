@@ -12,7 +12,11 @@ dependencies:
   collection: ^1.15.0
   dio: ^5.1.2
   equatable: ^2.0.0
-  faye_dart: ^0.1.1+2
+  faye_dart:
+    git:
+      url: https://github.com/Jeonguk-ninehire/stream-feed-flutter.git
+      ref: master
+      path: packages/faye_dart
   http_parser: ^4.0.0
   intl: ^0.18.0
   jose: ^0.3.2
